@@ -29,11 +29,6 @@ const exampleNames = [
     "POCKETS MAUA",
   ];
   
-  document.querySelectorAll(".card__price").forEach((price) => {
-    let randomPrice = Math.floor(Math.random() * 100) + 1;
-    price.textContent = `$${randomPrice}.99`;
-  });
-  
   document.querySelectorAll(".card__text").forEach((name, i) => {
     name.textContent = exampleNames[i % exampleNames.length];
   });

@@ -6,7 +6,6 @@
   }
   
   .card__image {
-    display: block;
     max-width: 100%;
   }
   
@@ -63,8 +62,9 @@
   
   .card__text {
     padding: 1em 0 0.5em;
-    font-weight: 200;
+    font-weight: 500;
     transition: transform 300ms ease-out;
+    font-family: 'Segoe UI';
   }
   
   h3 {
